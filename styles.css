@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #222;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  margin-top: 156px;
+}
+
+#main .presentation .image-holder img{
+  display: block;
+  margin: 0 auto;
+}
+
+#main .search-icon svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#main .search-bar {
+  width: 584px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  margin-top: 26px;
+  height: 46px;
+  display: flex;
+}
+
+#main .search-bar:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223,225,229,0);
+}
+
+#main .search-bar .search-bar-holder {
+  padding: 0 8px 0 14px;
+  display: flex;
+  flex: 1;
+}
+
+#main .search-bar .search-bar-holder .search-icon-holder{
+  padding-right: 13px;
+}
+
+#main .search-bar .search-bar-holder .search-icon-holder .search-icon{
+  margin-top: 12px;
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  fill: currentColor;
+  position: relative;
+}
+
+#main .search-bar .search-bar-holder .microphone-icon-holder {
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#main .search-bar .search-bar-holder .microphone-icon-holder .microphone-icon {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#main .search-bar .search-bar-holder .input{
+  display: flex;
+  flex: 1;
+  height: 34px;
+  align-self: center;
+  outline: none;
+  border: 0;
+  padding: 0;
+}
+
+#main .search-holder .search-buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 29px;
+}
+
+#main .search-holder .search-buttons .button{
+  margin: 0 5px;
+  padding: 0 17px;
+  text-decoration: none;
+  background: royalblue;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  color: #3c4043;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+#main .search-holder .search-buttons .button:hover{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+#main .search-holder .search-buttons .button:focus{
+  border: 1px solid #4d90fe;
+}
+
+#main .languages {
+  margin-top: 29px;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+
+#main .languages a{
+  padding: 0 3px;
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+
+#main .languages a:hover{
+  text-decoration: underline;
+}
