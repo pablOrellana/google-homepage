@@ -1,17 +1,24 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body {
+body, html {
   font-size: 14px;
   font-family: arial,sans-serif;
   color: #222;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 #main {
   display: flex;
   justify-content: center;
-  margin-top: 156px;
+  padding-top: 156px;
 }
 
 #main .presentation .image-holder img{
@@ -94,7 +101,6 @@ body {
 #main .search-holder .search-buttons .button{
   margin: 0 5px;
   padding: 0 17px;
-  text-decoration: none;
   background: royalblue;
   height: 36px;
   display: flex;
@@ -127,7 +133,6 @@ body {
 
 #main .languages a{
   padding: 0 3px;
-  text-decoration: none;
   color: #1a0dab;
 }
 
@@ -154,7 +159,6 @@ body {
 
 #header .options-holder .header-text{
   padding-left: 15px;
-  text-decoration: none;
   color: rgba(0,0,0,0.87);
   font-size: small;
   line-height: 24px;
@@ -198,4 +202,42 @@ body {
   height: 24px;
   width: 24px;
   display: inline-block;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  background: #f2f2f2;
+  width: 100%;
+}
+
+#footer .country-holder {
+  padding: 15px 30px;
+  color: rgba(0,0,0,.54);
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+}
+
+#footer .links-holder {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+#footer .links-holder .links-start,#footer .links-holder .links-end {
+  display: flex;
+}
+
+#footer .links-holder .links-start a{
+  padding: 15px;
+  color: #70757a;
+}
+
+#footer .links-holder a:hover{
+  text-decoration: underline;
+}
+
+#footer .links-holder .links-end a{
+  padding: 15px;
+  color: #70757a;
 }
